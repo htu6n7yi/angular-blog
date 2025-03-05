@@ -27,5 +27,6 @@
 .big-card__photo > img {
   width: 100%;
   min-width: 400px;
-
+  box-shadow: 10px 10px 5px #24222e ;
+  margin-bottom: 2rem;
 }
