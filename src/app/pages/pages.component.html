@@ -1,14 +1,22 @@
 
 <div class="container__content">
+
   <div class="content__cover">
     <img srcset=" {{photoCover}}"
     alt="">
   </div>
+
   <div class="content__title">
     <h1>{{cardTitle}}</h1> <hr>
   </div>
+
   <div class="content__description">
     <a href=""> << VOLTAR</a>
   <P>{{cardDescription}}</P>
+  </div>
+
+  <div class="content__trailer">
+    <h2>Trailer</h2>
+    <iframe width="630" height="400" [src]="trailer" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>carregando...</iframe>
   </div>
 </div>

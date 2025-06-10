@@ -1,9 +1,10 @@
 export const dataFake = [
   {
     id: "1",
-    title: "AGENTS DA SHIELD RETORNAM A AGENDA MCU",
+    title: "AGENTS DA SHIELD RETORNA A AGENDA MCU",
     description: "A série Agents of SHIELD, que foi ao ar entre 2013 e 2020, foi uma das primeiras produções da Marvel Television e, por isso, foi a primeira a se conectar ao Universo Cinematográfico da Marvel. A série foi criada por Joss Whedon, Jed Whedon e Maurissa Tancharoen e foi exibida pela ABC.",
-    photoCover : "https://th.bing.com/th/id/R.b5827471db3c50a69351bb9d4ffb20b4?rik=k0WW5iWJJ317OQ&riu=http%3a%2f%2fwww.theeffect.net%2fwp-content%2fuploads%2f2014%2f04%2fAgents-of-SHIELD-Cast-1.jpg&ehk=pedlFL26owQ3iOtlPbs1JYR0MxV5nOMj0p4ZJUxK%2bbw%3d&risl=&pid=ImgRaw&r=0"
+    photoCover : "https://th.bing.com/th/id/R.b5827471db3c50a69351bb9d4ffb20b4?rik=k0WW5iWJJ317OQ&riu=http%3a%2f%2fwww.theeffect.net%2fwp-content%2fuploads%2f2014%2f04%2fAgents-of-SHIELD-Cast-1.jpg&ehk=pedlFL26owQ3iOtlPbs1JYR0MxV5nOMj0p4ZJUxK%2bbw%3d&risl=&pid=ImgRaw&r=0",
+    trailer : "https://www.youtube.com/embed/T3T-evQZiQo"
   },
   {
     "id": "2",
@@ -26,6 +27,18 @@ export const dataFake = [
     "id": "5",
     "title": "X-MEN DIAS DE UM FUTURO ESQUECIDO",
     "description": "DIAS DE UM FUTURO ESQUECIDO  é um filme de super-herói americano de 2014 baseado no grupo de super-heró",
-     "photoCover" : "https://th.bing.com/th/id/OIP.3kFjRhJ5u0h801C2Gc7M9gHaEo?w=194&h=121&c=7&r=0&o=5&pid=1.7" }
+     "photoCover" : "https://th.bing.com/th/id/OIP.3kFjRhJ5u0h801C2Gc7M9gHaEo?w=194&h=121&c=7&r=0&o=5&pid=1.7" },
+  {
+    "id": "6",
+    "title": "VINGADORES ULTIMATO É NOVO SUCESSO DA MARVEL",
+    "description": "Vingadores: Ultimato é um filme de super-heróis da Marvel lançado em 2019. É a sequência de (Vingadores: Guerra Infinita) e apresenta os Vingadores restantes tentando reverter o dano causado por Thanos, que dizimou metade da vida no universo. Eles embarcam em uma jornada arriscada para recuperar as Joias do Infinito, viajar no tempo e desfazer as ações de Thanos. O filme é conhecido por suas emocionantes cenas de ação, momentos tocantes e um desfecho épico para a saga de vários heróis icônicos da Marvel.",
+     "photoCover" : "https://th.bing.com/th/id/OIP.6XMdwPKv9K9ZbpyGr-6JIQHaEK?rs=1&pid=ImgDetMain" },
+
+     {
+    "id": "7",
+    "title": "Mega Sena: quatro apostas de Goiás levam juntas mais de R$ 115 mil",
+    "description": "Ganhadores fizeram suas apostas em Posse, Professor Jamil, Trindade e em Valparaíso de Goiás. Outras 277 apostas acertaram quatro números e levaram juntas mais de R$ 269 mil.",
+    "photoCover": "https://s2-g1.glbimg.com/16nTIkLco1z346kbTJtBV6Qx_k8=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/h/j/3Slin0TxqSSAZnIBfY4A/jun-padrao-foto-g1-goias-7-.jpg"
+     }
 ]
 

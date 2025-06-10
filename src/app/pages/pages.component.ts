@@ -12,7 +12,10 @@ export class PagesComponent implements OnInit {
   photoCover: string = "";
   cardTitle: string = "";
   cardDescription: string = "";
+
+  trailer: string = "https://www.youtube.com/embed/T3T-evQZiQo";
   private id: string | null = "0";
+
 
   constructor(
     private route: ActivatedRoute
@@ -37,9 +40,11 @@ export class PagesComponent implements OnInit {
       this.cardTitle = result.title;
       this.cardDescription = result.description;
       this.photoCover = result.photoCover;
+      this.trailer = result.trailer || '';
       console.log('Article ID:', result.id);
     } else {
       console.error('Article not found');
     }
   }
+
 }
